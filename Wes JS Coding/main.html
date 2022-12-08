@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    
+    <body>
+        
+        <h1>Wesley's Coding Adventure</h1>
+        
+        <div id="container">
+            <div class="stats">
+                <div id="heroStats">
+                    <img src="Pictures/heart.png">
+                    <p id="heroHealth" class="health">100</p>
+                </div>
+                <div id="dragonStats">
+                    <img src="Pictures/heart.png">
+                    <p id="dragonHealth" class="health">200</p>
+                </div>
+            </div>
+            <div id="characterBox">
+                <div id="heroPic" class="characters"><img id="heroImage" src="Pictures/hero.png"></div>
+                <div id="dragonPic" class="characters"><img id="dragonImage" src="Pictures/dragon.png"></div>
+            </div>   
+            <p id="textBox">You encounter a dragon!</p>     
+        </div>
+        
+        <div id="menu">
+            <button id="attack" onclick="attack()">Attack</button>
+            <button id="defend" onclick="defend()">Defend</button>
+            <button id="run" onclick="run()">Run Away</button>
+            <button id="run" onclick="magic()">Magic</button>
+            
+        </div>
+
+        <script src="setup.js"></script>
+        <script src="WesleysActions.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,34 @@
+* {
+	margin:  0;
+}
+
+h1 {
+	background-color: grey;
+	text-align: center;
+    font-family: cursive;
+	padding: 50px;
+	color:  white;
+}
+
+li {
+	margin: 10px;
+}
+
+#menuBar, footer {
+	padding: 15px;
+	text-align: center;
+	background-color: lightgrey;
+	margin: 0;
+}
+
+span {
+	color: red;
+}
+
+main {
+	margin: 20px;
+	width: 600px;
+	margin:  20px auto;
+	padding: 20px;
+	background-color: lightblue;
+}
